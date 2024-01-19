@@ -1,0 +1,40 @@
+#searchResults{
+    max-width: 520px;
+    width: 100%;
+    border-radius: 25px;
+    background-color: #fff;
+    border: none;
+    padding: 0px 25px;
+    font-size: 14px;
+    color: #7a7a7a;
+    position: absolute;
+    z-index: 99;
+    border: #7a7a7a;
+    display: none;
+}
+
+#searchResults li{
+    border-bottom: 1px solid #f1f1f1;
+    padding: 5px 25px;
+}
+
+#searchResults li a{
+    color: #333;
+    font-size: 14px;
+}
+
+#searchResults li:hover{
+    background-color: #f1f1f1;
+}
+
+#displayImage {
+    display: none;
+    position: absolute;
+    left: 520px;
+    width: 200px;
+    height: 200px;
+}
+
+#displayImage img{
+    border-radius: 25px;
+}
